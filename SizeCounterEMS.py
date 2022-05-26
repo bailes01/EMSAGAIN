@@ -3,9 +3,10 @@ from os import error, getcwd
 import re
 import shutil
 from collections import Counter
-import tkinter as tk
-import tkinter.filedialog as fd
-from tkinter import DISABLED, NORMAL, messagebox
+
+# import tkinter as tk
+# import tkinter.filedialog as fd
+# from tkinter import DISABLED, NORMAL, messagebox
 
 
 class SizeCounter:
