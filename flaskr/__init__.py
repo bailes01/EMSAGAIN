@@ -1,6 +1,5 @@
 # importing the required libraries
 from SizeCounterEMS import convert
-from tkinter import messagebox
 import time
 import glob
 import os
@@ -81,7 +80,7 @@ def create_app(test_config=None):
                 return redirect("/processing")
                 # Display thsi message after uploading
             else:
-                return messagebox.showerror("Error", "Please upload a csv file")
+                return "Error, Please upload a csv file"
 
     @app.route("/processing", methods=["GET", "POST"])
     def processing():
